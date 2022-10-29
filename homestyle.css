@@ -212,6 +212,7 @@ padding-left: 50px;
 @media screen and (max-width: 800px){
     .gameplay{
         font-size: 16px;
+        padding: 50px;
     }
 }  
 
@@ -219,6 +220,7 @@ padding-left: 50px;
     .gameplay{
         font-size: 16px;
         width: 80%;
+        padding: 50px;
     }
 }  
 
@@ -226,13 +228,58 @@ padding-left: 50px;
     .gameplay{
         font-size: 16px;
         width: 90%;
+        padding: 50px;
     }
 }  
 @media screen and (max-width: 500px){
     .gameplay{
         width: 95%;
+        padding: 50px;
     } .xIcon{
     left: 90%;
     top: 2%;
+    }
+    .btn{
+        font-size: 44px;
+        width: 300px;
+    }
+    .mainImage{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .gameplay{
+        padding: 40px;
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .btn{
+        font-size: 44px;
+        width: 250px;
+    }
+    .herotext h1{
+        font-size: 60px;
+        
+    }
+    .mainImage{
+        width: 300px;
+        height: 300px;
+    }
+    .gameplay{
+        padding: 30px;
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .gameplay{
+        padding: 20px;
+        width: 95%;
     }
 }
