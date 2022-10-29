@@ -71,7 +71,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .p1-current{
@@ -82,7 +82,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .p0-current-text{
@@ -109,7 +109,7 @@ align-items: center;
     background-color: #fcbeaf8f;
     border-top-left-radius: 75px;
     border-bottom-left-radius: 75px;
-    box-shadow: inset 1px 1px 100px 1px rgba(139, 83, 68, 0.561);
+    box-shadow: inset 1px 1px 100px 1px #fd9e868f;
     transition: 0.75s;
     
 }
@@ -118,7 +118,7 @@ align-items: center;
     background-color: #fcbeaf8f;
     border-top-right-radius: 75px;
     border-bottom-right-radius: 75px;
-    box-shadow: inset 1px 1px 100px 1px rgba(139, 83, 68, 0.561);
+    box-shadow: inset 1px 1px 100px 1px #fd9e868f;
     transition: 0.75s;
 }
 
@@ -181,10 +181,6 @@ align-items: center;
 .btn--roll:hover{
     color: #FF7150;
      transition: 0.5s;
- }
-
- .btn-roll:focus{
-    color: red;
  }
 
  .btn--hold:hover{
