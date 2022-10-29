@@ -253,6 +253,7 @@ align-items: center;
     }
     .btn{
         font-size: 18px;
+        width: 110px;
     }
 }
 
@@ -261,10 +262,10 @@ align-items: center;
         height: 80px;
     }
     .p0-text{
-        font-size: 28px;
+        font-size: 24px;
     }
     .p1-text{
-        font-size: 28px;
+        font-size: 24px;
     }
     .p1-current{
         width: 95px;
@@ -284,6 +285,12 @@ align-items: center;
     .p1-current-score{
         font-size: 20px;
     }
+    .p0-final-score{
+        font-size: 34px;
+    }
+    .p1-final-score{
+        font-size: 34px;
+    }
     .box-div{
      
         height: 50%;
@@ -295,10 +302,10 @@ align-items: center;
         height: 65px;
     }
     .p0-text{
-        font-size: 24px;
+        font-size: 20px;
     }
     .p1-text{
-        font-size: 24px;
+        font-size: 20px;
     }
     .btn{
         font-size: 16px;
@@ -313,10 +320,10 @@ align-items: center;
         height: 90px;
     }
     .p0-final-score{
-        font-size: 42px;
+        font-size: 30px;
     }
     .p1-final-score{
-        font-size: 42px;
+        font-size: 30px;
     }
     .box-div{
         height: 45%;
@@ -326,5 +333,29 @@ align-items: center;
 @media screen and (max-width: 400px){
     .box-div{
         height: 40%;
+    }
+    .p0-final-score{
+        font-size: 24px;
+    }
+    .p1-final-score{
+        font-size: 24px;
+    }
+    .p0-text{
+        font-size: 16px;
+    }
+    .p1-text{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        width: 100px;
+    }
+    .p0-current{
+        width: 80px;
+        height: 80px;
+    }
+    .p1-current{
+        width: 80px;
+        height: 80px;
     }
 }

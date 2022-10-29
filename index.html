@@ -8,32 +8,36 @@
     <title>PIG</title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAkpL8ADw8+gDh3/wAw8P6AJiYnAAFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAEAwAAAAAAAAMEAAAAAAAEBAADAwMDAwMABAQAAAAEAwIAAwADAwADAAIDBAAABAIBAAMDAwMDAwABAgQAAAQDAwMAAAAAAAADAwMEAAAEAwMABQMDAwMFBgMDBAAABAQDAAADAwMDAAADBAQAAAQEAwYGAwMDAwYGAwQEAAAABAMDAwMDAwMDAwMEAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAQDBAAABAMEAAAAAAAAAAAEAwQAAAQDBAAAAAAAAAAAAAQEAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAPAADgBwAAwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAOAHAADgBwAA4AcAAPGPAAA=" rel="icon" type="image/x-icon" />
     </head>
-    <header class="hero">
-        <img class = "mainImage" src="HeroImg.png" alt="Pig photo">
-        <div class="herotext">
-            <h1>PIG GAME</h1>
-        </div>
-    </header>
-    <main class="starting-buttons">
-        <a href="game.html"><button class="btn start">Play</button></a>
-        <button class="btn rules">Rules</button>
-    </main>
-    <div class="hidden overlay"></div>
-    <div class ="hidden gameplay"> 
-    <button class="xIcon">X</button>
-    <p>Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold":</p>
-    <br>
-        <ul>
-            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
-            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
-            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
-        </ul>
+    <body>
+        <header class="hero">
+            <img class = "mainImage" src="HeroImg.png" alt="Pig photo">
+            <div class="herotext">
+                <h1>PIG GAME</h1>
+            </div>
+        </header>
+        <main class="starting-buttons">
+            <a href="game.html"><button class="btn start">Play</button></a>
+            <button class="btn rules">Rules</button>
+        </main>
+        <div class="hidden overlay"></div>
+        <div class ="hidden gameplay"> 
+        <button class="xIcon">X</button>
+        <p>Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold":</p>
         <br>
-        <p id ="centered-paragraph">&lt;The first player to score 100 or more points wins.&gt;</p>
-        <br>    
-        <p id="example-paragraph">For example, the first player, Chris, begins a turn with a roll of 5. Chris could hold and score 5 points, but chooses to roll again. Chris rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Chris rolls a 1, and must end his turn without scoring. The next player, Alex, rolls the sequence 4-5-3-5-6, after which he chooses to hold, and adds his turn total of 23 points to his score.</p>
-    </div>
-    <div class="game-content"></div>
+            <ul>
+                <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+                <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+                <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+            </ul>
+            <br>
+            <p id ="centered-paragraph">&lt;The first player to score 100 or more points wins.&gt;</p>
+            <br>    
+            <p id="example-paragraph">For example, the first player, Chris, begins a turn with a roll of 5. Chris could hold and score 5 points, but chooses to roll again. Chris rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Chris rolls a 1, and must end his turn without scoring. The next player, Alex, rolls the sequence 4-5-3-5-6, after which he chooses to hold, and adds his turn total of 23 points to his score.</p>
+        </div>
+        <div class="game-content"></div>
 </body>
 <script src="homescript.js"></script>
 </html>
+
+
+
