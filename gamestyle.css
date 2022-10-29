@@ -110,7 +110,7 @@ align-items: center;
     border-top-left-radius: 75px;
     border-bottom-left-radius: 75px;
     box-shadow: inset 1px 1px 100px 1px #fd9e868f;
-    transition: 0.75s;
+    transition: 0.5s;
     
 }
 
@@ -119,7 +119,7 @@ align-items: center;
     border-top-right-radius: 75px;
     border-bottom-right-radius: 75px;
     box-shadow: inset 1px 1px 100px 1px #fd9e868f;
-    transition: 0.75s;
+    transition: 0.5s;
 }
 
 .dice{
@@ -284,6 +284,10 @@ align-items: center;
     .p1-current-score{
         font-size: 20px;
     }
+    .box-div{
+     
+        height: 50%;
+    }
 }
 
 @media screen and (max-width: 450px){
@@ -314,5 +318,13 @@ align-items: center;
     .p1-final-score{
         font-size: 42px;
     }
+    .box-div{
+        height: 45%;
+    }
 }
 
+@media screen and (max-width: 400px){
+    .box-div{
+        height: 40%;
+    }
+}
