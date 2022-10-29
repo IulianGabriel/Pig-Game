@@ -167,22 +167,6 @@ padding-left: 50px;
 }
 
 /* Media query */
-@media screen and (max-width: 800px) {
-    .herotext{
-        right: 0;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .starting-buttons{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .start{
-        margin-bottom: 15px;
-    }
-}
 @media screen and (max-width: 1400px){
     .xIcon{
         left: 94%;
@@ -204,7 +188,7 @@ padding-left: 50px;
     }
 } 
 
- @media screen and (max-width: 900px){
+@media screen and (max-width: 900px){
     .gameplay{
         font-size: 18px;
     } .xIcon{
@@ -212,12 +196,27 @@ padding-left: 50px;
     }
 }
 
+
 @media screen and (max-width: 800px){
     .gameplay{
         font-size: 16px;
         padding: 50px;
     }
+    .herotext{
+        right: 0;
+    }
 }  
+
+@media screen and (max-width: 750px) {
+    .starting-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .start{
+        margin-bottom: 15px;
+    }
+}
 
 @media screen and (max-width: 700px){
     .gameplay{

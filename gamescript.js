@@ -52,9 +52,9 @@ const winnerStyle = function () {
     player1El.style.borderTopRightRadius = '75px';
     player1El.style.borderBottomRightRadius = '75px';
     document.querySelector(`.player--${activePlayer}`).classList.add('player-winner');
-    if(scores[0] >= 20){
+    if(scores[0] >= 100){
         player0Text.textContent = 'Player 1 Wins';
-    } else {
+    } else if (scores[1] >= 100){
        player1Text.textContent = 'Player 2 Wins';
     }
 }

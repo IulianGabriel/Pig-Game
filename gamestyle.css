@@ -202,6 +202,12 @@ align-items: center;
     .dice {
         height: 110px;
     };
+    .p0-text{
+        font-size: 38px;
+    }
+    .p1-text{
+        font-size: 38px;
+    }
 }
 
 
@@ -225,7 +231,7 @@ align-items: center;
         font-size: 36px;
     }
     .p1-text {
-        font-size: 40px;
+        font-size: 36px;
     }
     }
 
@@ -253,7 +259,7 @@ align-items: center;
     }
     .btn{
         font-size: 18px;
-        width: 110px;
+        width: 120px;
     }
 }
 
@@ -357,5 +363,12 @@ align-items: center;
     .p1-current{
         width: 80px;
         height: 80px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .btn{
+        font-size: 12px;
+        width: 90px;
     }
 }
