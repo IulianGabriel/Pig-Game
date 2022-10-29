@@ -285,3 +285,33 @@ align-items: center;
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 450px){
+    .dice{
+        height: 65px;
+    }
+    .p0-text{
+        font-size: 24px;
+    }
+    .p1-text{
+        font-size: 24px;
+    }
+    .btn{
+        font-size: 16px;
+        width: 110px;
+    }
+    .p0-current{
+        width: 90px;
+        height: 90px;
+    }
+    .p1-current{
+        width: 90px;
+        height: 90px;
+    }
+    .p0-final-score{
+        font-size: 42px;
+    }
+    .p1-final-score{
+        font-size: 42px;
+    }
+}
