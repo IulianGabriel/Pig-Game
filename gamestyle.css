@@ -105,6 +105,13 @@ align-items: center;
     font-size: 22px;
 }
 
+.p0-text{
+    font-size: 42px;
+}
+.p1-text{
+    font-size: 42px;
+}
+
 .player--active-p0{
     background-color: #fcbeaf8f;
     border-top-left-radius: 75px;
@@ -202,12 +209,6 @@ align-items: center;
     .dice {
         height: 110px;
     };
-    .p0-text{
-        font-size: 38px;
-    }
-    .p1-text{
-        font-size: 38px;
-    }
 }
 
 
