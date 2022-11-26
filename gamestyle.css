@@ -18,11 +18,11 @@ font-family: 'Bungee', cursive;
 position: relative;
 width: 1300px;
 height: 700px;
-background-color: #FFF6F4;
+background-color: #fcbeaf8f;
 border-radius: 75px;
 display: flex;
 justify-content: space-around;
-box-shadow: 1px 1px 20px 20px rgba(201, 201, 201, 0.301);
+box-shadow: 1px 1px 10px 10px #ff8b713f
 }
 
 .player--0{
@@ -113,19 +113,19 @@ align-items: center;
 }
 
 .player--active-p0{
-    background-color: #fcbeaf8f;
+    background-color: #FFF6F4;
     border-top-left-radius: 75px;
     border-bottom-left-radius: 75px;
-    box-shadow: inset 1px 1px 100px 1px #fd9e868f;
+    box-shadow: inset 1px 1px 100px 1px #e7e7e7;
     transition: 0.5s;
     
 }
 
 .player--active-p1{
-    background-color: #fcbeaf8f;
+    background-color: #FFF6F4;
     border-top-right-radius: 75px;
     border-bottom-right-radius: 75px;
-    box-shadow: inset 1px 1px 100px 1px #fd9e868f;
+    box-shadow: inset 1px 1px 100px 1px #dfdfdf;
     transition: 0.5s;
 }
 
